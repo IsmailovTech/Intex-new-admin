@@ -12,9 +12,11 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
   <Provider store={store}>
+
     <TokentContext>
       <SiteInfo>
         <App />
+        
       </SiteInfo>
     </TokentContext>
     </Provider>
